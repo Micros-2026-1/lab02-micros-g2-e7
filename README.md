@@ -4,6 +4,9 @@
 
 
 ## 1. Integrantes
+•[Laura Alejandra Florian Orjuela](https://github.com/Laura-Florian)
+
+•[Daniel Penagos Castro]()
 
 ## 2. Documentación
 
@@ -53,8 +56,11 @@
 
 ## RC
 
-## 3. Evidencias de implementación
 
+## 3. Evidencias de implementación
+☼[RC](videos/Circuito_RC.mp4)
+
+☼[HS/INTOSC ](videos/Circuito_OSILADORES.mp4)
 ## 4. Preguntas
 
 * ¿En qué modo se obtuvo la medición más cercana a la frecuencia teórica?
