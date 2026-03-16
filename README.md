@@ -183,16 +183,30 @@ void init_oscillator(void)
 
 * ¿En qué modo se obtuvo la medición más cercana a la frecuencia teórica?
 
+   ○ En modo 2, con oscilador externo mediante un cristal de cuarzo de 16MHz.
+
 * ¿Fue posible evidenciar el fenómeno de deriva? ¿Qué factores podrían explicar la variación de frecuencia al calentar el PIC?
 
+   ○ Se pudo evidenciar solo en modo 1 y 2, con muy poca variación y en modo 3 no se pudo evidenciar por la inestabilidad.
+
 * ¿Cuál es más preciso en cuanto a frecuencia teórica vs. medida?
+
+   ○ El más preciso fue el modo 2 con valores muy cercanos a los teóricos y poca variación.
 
 
 * Explique cómo usar RC0 para estimar la frecuencia del oscilador cuando RA6 no está disponible.
 
+   ○ Los modos en los que aplica PLL son el modo 1 de oscilador interno y el modo 2 de oscilador externo con cristal de cuarzo.
+
 * Si se quisiera duplicar la frecuencia del PIC usando PLL, ¿en qué modos se podría aplicar?
 
+   ○ El modo 1 es el más "accesible" ya que el oscilador está integrado en el mismo microcontrolador,  aunque con una frecuencia limitada de 31kHz.
+
 * Enliste ventajas y desventajas de cada modo.
+  
+  ○ El modo 2 es el más adecuado por su estabilidad y una frecuencia superior debido al cristal de cuarzo de 16MHZ, aunque es externo al microcontrolador.
+
+  ○ El modo 3 permite "variar" la frecuencia de oscilación al cambiar los valores de resistencia y capacitancia, pero suele ser muy inestable al mantener frecuencia bajas.
 
 ## 5. Referencias
 
