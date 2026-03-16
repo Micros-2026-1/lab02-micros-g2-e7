@@ -195,3 +195,7 @@ void init_oscillator(void)
 * Enliste ventajas y desventajas de cada modo.
 
 ## 5. Referencias
+
+[1]	“Pic18f45k22 pdf”, Alldatasheet.com. [En línea]. Disponible en: https://www.alldatasheet.com/datasheet-pdf/view/348759/MICROCHIP/PIC18F45K22.html. [Consultado: 16-mar-2026].
+
+[2]	J. Ramirez, labs/02_lab02 at main · jharamirezma/Microcontroladores_ECCI_2026-I. .
